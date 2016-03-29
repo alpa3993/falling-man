@@ -1,0 +1,62 @@
+
+body {
+	background:#383b3b;
+}
+
+.wrapper {
+	margin: 2em auto;
+	width:800px;
+	position:relative;
+}
+
+.drift {
+	@include animation(clouddrift 8s infinite ease-in both);
+}
+
+@include keyframes(clouddrift) {
+	from{transform: translateX(-600px);}
+	to{transform: translateX(1200px);}
+}
+
+.drift2 {
+	@include animation(clouddrift 10s infinite ease-in both);
+}
+
+@include keyframes(clouddrift) {
+	from{transform: translateX(-600px);}
+	to{transform: translateX(1200px);}
+}
+
+.drift3 {
+	@include animation(clouddrift 12s infinite ease-in both);
+}
+
+@include keyframes(clouddrift) {
+	from{transform: translateX(1400px);}
+	to{transform: translateX(-500px);}
+}
+
+.fall {
+	@include animation(fallman 8s infinite ease-in 1s both);
+
+}
+
+@include keyframes(fallman) {
+	from{transform: translateY(-500px) rotateY(0deg);}
+	to{transform: translateY(800px) rotateY(90deg);}
+}
+
+h3 {
+	color: #00AEEF;
+}
+
+
+.text {
+	@include animation(falltext 12s infinite linear both);
+
+}
+
+@include keyframes(falltext) {
+	from{transform: translateX(-500px);}
+	to{transform: translateX(1350px);}
+}

@@ -1,0 +1,172 @@
+/* line 2, ../scss/_base.scss */
+body {
+  background: #383b3b;
+}
+
+/* line 6, ../scss/_base.scss */
+.wrapper {
+  margin: 2em auto;
+  width: 800px;
+  position: relative;
+}
+
+/* line 12, ../scss/_base.scss */
+.drift {
+  -moz-animation: clouddrift 8s infinite ease-in both;
+  -webkit-animation: clouddrift 8s infinite ease-in both;
+  animation: clouddrift 8s infinite ease-in both;
+}
+
+@-moz-keyframes clouddrift {
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
+@-webkit-keyframes clouddrift {
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
+@keyframes clouddrift {
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
+/* line 21, ../scss/_base.scss */
+.drift2 {
+  -moz-animation: clouddrift 10s infinite ease-in both;
+  -webkit-animation: clouddrift 10s infinite ease-in both;
+  animation: clouddrift 10s infinite ease-in both;
+}
+
+@-moz-keyframes clouddrift {
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
+@-webkit-keyframes clouddrift {
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
+@keyframes clouddrift {
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(1200px);
+  }
+}
+/* line 30, ../scss/_base.scss */
+.drift3 {
+  -moz-animation: clouddrift 12s infinite ease-in both;
+  -webkit-animation: clouddrift 12s infinite ease-in both;
+  animation: clouddrift 12s infinite ease-in both;
+}
+
+@-moz-keyframes clouddrift {
+  from {
+    transform: translateX(1400px);
+  }
+  to {
+    transform: translateX(-500px);
+  }
+}
+@-webkit-keyframes clouddrift {
+  from {
+    transform: translateX(1400px);
+  }
+  to {
+    transform: translateX(-500px);
+  }
+}
+@keyframes clouddrift {
+  from {
+    transform: translateX(1400px);
+  }
+  to {
+    transform: translateX(-500px);
+  }
+}
+/* line 39, ../scss/_base.scss */
+.fall {
+  -moz-animation: fallman 8s infinite ease-in 1s both;
+  -webkit-animation: fallman 8s infinite ease-in 1s both;
+  animation: fallman 8s infinite ease-in 1s both;
+}
+
+@-moz-keyframes fallman {
+  from {
+    transform: translateY(-500px) rotateY(0deg);
+  }
+  to {
+    transform: translateY(800px) rotateY(90deg);
+  }
+}
+@-webkit-keyframes fallman {
+  from {
+    transform: translateY(-500px) rotateY(0deg);
+  }
+  to {
+    transform: translateY(800px) rotateY(90deg);
+  }
+}
+@keyframes fallman {
+  from {
+    transform: translateY(-500px) rotateY(0deg);
+  }
+  to {
+    transform: translateY(800px) rotateY(90deg);
+  }
+}
+/* line 49, ../scss/_base.scss */
+h3 {
+  color: #00AEEF;
+}
+
+/* line 54, ../scss/_base.scss */
+.text {
+  -moz-animation: falltext 12s infinite linear both;
+  -webkit-animation: falltext 12s infinite linear both;
+  animation: falltext 12s infinite linear both;
+}
+
+@-moz-keyframes falltext {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(1350px);
+  }
+}
+@-webkit-keyframes falltext {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(1350px);
+  }
+}
+@keyframes falltext {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(1350px);
+  }
+}
